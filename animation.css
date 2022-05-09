@@ -1,0 +1,10 @@
+@keyframes glide {
+  0% {
+    transform: translateY(0);
+    color: #4863ff;
+  }
+
+  100% {
+    transform: translateY(-5px);
+  }
+}
