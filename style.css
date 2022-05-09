@@ -776,32 +776,9 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin:100px 0 50px 0;
+    margin:130px 0 50px 0;
   }
 
-  .about__img {
-    margin: 0;
-  }
-
-  .about__img .square {
-    width: 250px;
-  }
-
-  .about__text {
-    max-width: 600px;
-    margin: 0;
-    text-align: center;
-  }
-
-  .about__text h1 {
-    margin: 30px 0 10px 0;
-    font-size: calc(50 / 16 * 1rem);
-  }
-
-  .about__text p {
-    font-size: calc(18 / 16 * 1rem);
-    font-weight: 500;
-  }
 
   /* -----------------------------
   ----------- Skills------------
