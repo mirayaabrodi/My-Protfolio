@@ -177,10 +177,16 @@ ul {
 .scroll-btn {
   display: flex;
   justify-content: center;
+
   margin-top: -5px;
+
+
 }
 
 .scroll-btn i {
+
+  margin-top: -5px;
+
   cursor: pointer;
   color: var(--royal-blue-color);
   position: relative;
@@ -770,7 +776,7 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin:100px 0  50px 0;
+    margin:100px 0 50px 0;
   }
 
   .about__img {
