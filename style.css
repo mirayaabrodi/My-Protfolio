@@ -760,15 +760,6 @@ ul {
 }
 
 @media (max-width: 850px) {
-
-  /* ----------------------------------
-  ----------- Scroll button  --------
-  -----------------------------------*/
-.scroll-btn {
-  display: flex;
-  justify-content: center;
-  margin-top: -25px;
-}
   /* -----------------------------
     ----------- About ------------
     ------------------------------*/
@@ -1498,7 +1489,7 @@ ul {
   .social {
     position: absolute;
     z-index: 10;
-    height: 200px;
+    height: 150px;
     width: 20px;
     bottom: 20px;
     right: 20px;
