@@ -125,21 +125,25 @@ position: fixed;
   justify-content: center;
 }
 
+.hero-introduction  {
+padding: 0 10px;
+}
+
 .hero-introduction h3 {
   font-weight: 600;
   color: var(--blue);
-  font-size: calc(28 / 16 * 1rem);
+  font-size: calc(26 / 16 * 1rem);
 }
 
 .hero-introduction h1 {
   font-weight: 700;
   color: var(--dark-grey);
-  font-size: calc(65 / 16 * 1rem);
+  font-size: calc(60 / 16 * 1rem);
 }
 .hero-introduction h2 {
   font-weight: 700;
   color: var(--light-grey);
-  font-size: calc(65 / 16 * 1rem);
+  font-size: calc(60 / 16 * 1rem);
 }
 
 .hero-introduction .hero-btn {
@@ -148,7 +152,7 @@ position: fixed;
   font-weight: 500;
   font-size: calc(18 / 16 * 1rem);
   width: 150px;
-  padding: 8px;
+  padding: 8px 0;
   background: none;
   border-radius: 5px;
   color: var(--blue);
@@ -159,4 +163,9 @@ position: fixed;
 .hero-introduction .hero-btn:hover {
   color: var(--white);
   background-color: var(--blue);
+}
+
+
+.hero img {
+  width: 400px;
 }
