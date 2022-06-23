@@ -40,8 +40,9 @@ a {
 
 /* Navbar */
 .navbar {
+display: none;
   padding: 30px 40px;
-  display: flex;
+  /* display: flex; */
   background: var(--white);
   align-items: center;
   justify-content: space-between;
@@ -68,4 +69,14 @@ a {
 
 .navbar .nav-menu .nav-item a:hover {
   color: var(--blue);
+}
+
+
+/* Responsive Navbar */
+
+.responsive-navbar {
+    width: 5rem;
+    height: 100vh;
+    position: fixed;
+    background: var(--coal);
 }
