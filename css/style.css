@@ -1,14 +1,8 @@
 :root {
-  /* Dark Mode */
-  --blue: #5d90ff;
-  --coal: #17191d;
-  --d-dark-grey: #8892b0;
-  --d-light-grey: #d2dfff;
-
-  /* Ligth Mode */
+  --blue: #4181ED;
   --white: #fff;
-  --l-dark-grey: #52545f;
-  --l-light-grey: #a3a1b4;
+  --dark-grey: #3c3e46;
+  --light-grey: #9391a2;
 }
 
 * {
@@ -19,9 +13,14 @@
   /* outline: red solid 2px; */
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
+  
   font-size: calc(20 / 16 * 1rem);
-  color: var(--l-light-grey);
+  color: var(--light-grey);
 }
 
 ul {
@@ -32,6 +31,9 @@ a {
   text-decoration: none;
 }
 
+.primary-text {
+  color: var(--blue);
+}
 /* Logo */
 .logo i,
 .logo i:visited {
@@ -41,6 +43,8 @@ a {
 
 /* Navbar */
 .navbar {
+  width: 100%;
+position: fixed;
   display: flex;
   padding: 30px 40px;
   background: var(--white);
@@ -66,10 +70,6 @@ a {
 
 .navbar .nav-menu .nav-item a:hover {
   color: #b3b1b1;
-}
-
-.navbar .nav-menu .nav-menu .nav-item a:active {
-  color: var(--blue);
 }
 
 /* Mobile Navbar */
@@ -119,7 +119,7 @@ a {
 }
 
 .hero {
-  height: 80vh;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -133,12 +133,12 @@ a {
 
 .hero-introduction h1 {
   font-weight: 700;
-  color: var(--l-dark-grey);
+  color: var(--dark-grey);
   font-size: calc(65 / 16 * 1rem);
 }
 .hero-introduction h2 {
   font-weight: 700;
-  color: var(--l-light-grey);
+  color: var(--light-grey);
   font-size: calc(65 / 16 * 1rem);
 }
 
