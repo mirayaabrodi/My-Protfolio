@@ -1,7 +1,26 @@
 :root {
-    --blue:#6796ff;
-    --coal:#17191d;
-    --dark-grey:#8892b0;
-    --light-grey:#d2dfff;
+  --blue: #6796ff;
+  --coal: #17191d;
+  --dark-grey: #8892b0;
+  --light-grey: #d2dfff;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--coal);
+  font-size: calc(20 / 16 * 1rem);
+  color: var(--dark-grey);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
