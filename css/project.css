@@ -2,7 +2,7 @@
   width: 100%;
   max-width: 1500px;
   margin: auto;
-  height: 100vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -14,6 +14,7 @@
 
 #projects .projects-text {
   text-align: center;
+
 }
 
 #projects .projects-text h3 {
@@ -42,7 +43,8 @@
 #projects .projects-wrapper .projects-text {
   width: 100%;
   max-width: 500px;
-  text-align: left;
+  text-align: initial;
+
 }
 
 #projects .projects-wrapper .projects-text h2 {
