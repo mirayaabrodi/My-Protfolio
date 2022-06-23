@@ -1,6 +1,6 @@
 #contact {
   width: 100%;
-  max-width: 700px;
+  max-width: 680px;
   margin: auto;
   height: 100vh;
   display: flex;
@@ -22,7 +22,7 @@
   color: var(--dark-grey);
   font-size: calc(38 / 16 * 1rem);
   font-weight: 700;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 #contact .contact-wrapper h2 {
@@ -30,15 +30,13 @@
   font-weight: 600;
   font-size: calc(25 / 16 * 1rem);
 
-  margin-bottom: 20px;
+  margin-bottom:35px;
 }
 
 #contact .contact-wrapper a {
   color: var(--light-grey);
   font-weight: 600;
   font-size: calc(25 / 16 * 1rem);
-
-  margin-bottom: 25px;
 }
 
 #contact .contact-wrapper a,

@@ -151,18 +151,19 @@ padding: 0 10px;
   margin-top: 10px;
   font-weight: 500;
   font-size: calc(18 / 16 * 1rem);
-  width: 150px;
-  padding: 8px 0;
-  background: none;
+  width: 130px;
+  padding: 5px 20px;
+  background: var(--blue);
   border-radius: 5px;
-  color: var(--blue);
-  border: 2px solid var(--blue);
+  color: var(--white);
   transition: all 0.3s ease;
+  border: 2px solid var(--blue);
 }
 
 .hero-introduction .hero-btn:hover {
-  color: var(--white);
-  background-color: var(--blue);
+  color: var(--blue);
+  background:none;
+  border: 2px solid var(--blue);
 }
 
 
