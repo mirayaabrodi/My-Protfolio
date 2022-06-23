@@ -33,16 +33,16 @@ a {
 }
 
 /* Logo */
-.logo i {
+.logo i,
+.logo i:visited {
   font-size: calc(25 / 16 * 1rem);
   color: var(--blue);
 }
 
 /* Navbar */
 .navbar {
-  display: none;
+  display: flex;
   padding: 30px 40px;
-  /* display: flex; */
   background: var(--white);
   align-items: center;
   justify-content: space-between;
@@ -54,26 +54,26 @@ a {
 
 .navbar .nav-menu .nav-item {
   padding: 0 20px;
-  font-size: 1rem;
 }
 
 .navbar .nav-menu .nav-item a,
 .navbar .nav-menu .nav-item a:visited {
-  color: var(--l-light-grey);
+  font-weight: 500;
+  color: #979797;
+  font-size: calc(18 / 16 * 1rem);
   transition: all 0.3s ease;
+}
+
+.navbar .nav-menu .nav-item a:hover {
+  color: #b3b1b1;
 }
 
 .navbar .nav-menu .nav-menu .nav-item a:active {
   color: var(--blue);
 }
 
-.navbar .nav-menu .nav-item a:hover {
-  color: var(--blue);
-}
-
-/* Responsive Navbar */
-
-.mobile-navbar{
+/* Mobile Navbar */
+.mobile-navbar {
   display: none;
   /* display: flex; */
   width: 100%;
@@ -116,4 +116,47 @@ a {
 
 .mobile-navbar.navbar-nav .nav-item a:active {
   color: var(--blue);
+}
+
+.hero {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-introduction h3 {
+  font-weight: 600;
+  color: var(--blue);
+  font-size: calc(28 / 16 * 1rem);
+}
+
+.hero-introduction h1 {
+  font-weight: 700;
+  color: var(--l-dark-grey);
+  font-size: calc(65 / 16 * 1rem);
+}
+.hero-introduction h2 {
+  font-weight: 700;
+  color: var(--l-light-grey);
+  font-size: calc(65 / 16 * 1rem);
+}
+
+.hero-introduction .hero-btn {
+  cursor: pointer;
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: calc(18 / 16 * 1rem);
+  width: 150px;
+  padding: 8px;
+  background: none;
+  border-radius: 5px;
+  color: var(--blue);
+  border: 2px solid var(--blue);
+  transition: all 0.3s ease;
+}
+
+.hero-introduction .hero-btn:hover {
+  color: var(--white);
+  background-color: var(--blue);
 }
