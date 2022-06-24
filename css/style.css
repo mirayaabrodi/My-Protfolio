@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap");
+
 :root {
   --blue: #4181ed;
   --white: #fff;
@@ -144,56 +146,67 @@ header {
   color: var(--blue);
 }
 
+/* Hero */
 .hero {
   height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
   background: var(--blue);
-}
-
-.hero-introduction {
-  padding: 0 50px;
 }
 
 .hero-introduction h3 {
   font-weight: 600;
-  color: var(--blue);
-  font-size: calc(26 / 16 * 1rem);
+  color: #a5c4f8;
+  font-size: calc(25 / 16 * 1rem);
 }
 
 .hero-introduction h1 {
   font-weight: 700;
-  color: var(--dark-grey);
+  color: var(--white);
   font-size: calc(70 / 16 * 1rem);
 }
 .hero-introduction h2 {
   font-weight: 700;
-  color: var(--light-grey);
+  color: #2c559d;
   font-size: calc(70 / 16 * 1rem);
 }
 
 .hero-introduction .hero-btn {
   cursor: pointer;
-  margin-top: 10px;
+  margin-top: 15px;
   font-weight: 500;
   font-size: calc(18 / 16 * 1rem);
   width: 130px;
-  padding: 5px 20px;
-  background: var(--blue);
+  padding: 8px 20px;
+  background: none;
   border-radius: 5px;
   color: var(--white);
   transition: all 0.3s ease;
-  border: 2px solid var(--blue);
+  border: 2px solid var(--white);
 }
 
 .hero-introduction .hero-btn:hover {
-  color: var(--blue);
-  background: none;
-  border: 2px solid var(--blue);
+background: rgba(255, 255, 255, 0.179);
 }
 
-.hero img {
-  width: 300px;
-  transform: rotate(-2deg);
+.code {
+  width: 430px;
+  padding: 30px;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 8px;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+  background: var(--white);
+  color: var(--blue);
+}
+
+.code p {
+  font-size: 0.95rem;
+  line-height: 2.2;
+}
+
+.thick {
+  font-weight: 600;
 }
