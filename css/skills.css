@@ -49,7 +49,13 @@
   padding-bottom: 10px;
 }
 
+#skills .skills-wrapper .icon-box svg {
+  color: var(--blue);
+  font-size: calc(70 / 16 * 1rem);
+  padding-bottom: 10px;
+}
+
 #skills .skills-wrapper .icon-box p {
   font-weight: 500;
-  font-size: calc(18 / 16 * 1rem);
+  font-size: calc(16 / 16 * 1rem);
 }
