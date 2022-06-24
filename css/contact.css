@@ -1,6 +1,6 @@
 #contact {
   width: 100%;
-  max-width: 680px;
+  max-width: 600px;
   margin: auto;
   height: 100vh;
   display: flex;
@@ -14,23 +14,22 @@
 }
 #contact .contact-wrapper h3 {
   color: var(--blue);
-  font-size: calc(28 / 16 * 1rem);
+  font-size: calc(22 / 16 * 1rem);
   font-weight: 700;
 }
 
 #contact .contact-wrapper h1 {
   color: var(--dark-grey);
-  font-size: calc(38 / 16 * 1rem);
+  font-size: calc(45 / 16 * 1rem);
   font-weight: 700;
-  margin-bottom: 15px;
 }
 
-#contact .contact-wrapper h2 {
+#contact .contact-wrapper p {
   color: var(--light-grey);
-  font-weight: 600;
-  font-size: calc(25 / 16 * 1rem);
+  font-weight: 500;
+  font-size: calc(20 / 16 * 1rem);
 
-  margin-bottom:35px;
+  margin-bottom:100px;
 }
 
 #contact .contact-wrapper a {
