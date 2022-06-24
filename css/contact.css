@@ -1,35 +1,39 @@
 #contact {
   width: 100%;
-  max-width: 600px;
   margin: auto;
   height: 100vh;
   display: flex;
   align-items: center;
   flex-direction: column;
+
+  background:var(--blue);
 }
 
 #contact .contact-wrapper {
+  max-width: 620px;
   text-align: center;
   margin: auto;
 }
 #contact .contact-wrapper h3 {
-  color: var(--blue);
-  font-size: calc(22 / 16 * 1rem);
-  font-weight: 700;
+  color: #2c559d;
+  font-weight: 600;
+  font-size: calc(24 / 16 * 1rem);
 }
 
 #contact .contact-wrapper h1 {
-  color: var(--dark-grey);
+  padding-bottom: 10px;
+  color: var(--white);
   font-size: calc(45 / 16 * 1rem);
   font-weight: 700;
 }
 
 #contact .contact-wrapper p {
-  color: var(--light-grey);
-  font-weight: 500;
-  font-size: calc(20 / 16 * 1rem);
+  color: #a5c4f8;
 
-  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: calc(22 / 16 * 1rem);
+
+  margin-bottom: 30px;
 }
 
 /* BUTTON */
@@ -38,7 +42,7 @@
   font-weight: 500;
   font-size: calc(19 / 16 * 1rem);
   color: var(--white);
-  background: var(--blue);
+border: 2px solid var(--white);
   padding: 10px 0;
   display: flex;
   width: 100%;
@@ -79,12 +83,37 @@ margin-left: 10px;
     transform: scale(1);
   }
 
-  50% {
-    color: var(--blue)    ;
-  }
-
   100% {
     offset-distance: 100%;
     transform: scale(0);
   }
 }
+
+
+
+footer {
+  flex-direction: column;
+  text-align: center;
+  padding: 15px;
+  display: flex;
+}
+
+footer a, footer a:visited{
+  color: #a5c4f8;
+ font-size: 1rem;
+ transition: all .3s ease;
+}
+footer a:hover{
+color: var(--white);
+}
+ footer .social-footer {
+   display: none;
+   margin-bottom: 10px;
+ }
+
+footer .social-footer a{
+  font-size: calc(22 / 16 * 1rem);
+padding: 0 15px  ;
+}
+
+
