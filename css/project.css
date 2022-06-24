@@ -1,32 +1,39 @@
 #projects {
   width: 100%;
+  height: 230vh;
   max-width: 1500px;
   margin: auto;
   display: flex;
   flex-direction: column;
 }
 
-#projects .projects-text {
-  text-align: center;
+#projects .project-text {  padding-top: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#projects .projects-text {
-  text-align: center;
+#projects .project-text h2{
 
-}
-
-#projects .projects-text h3 {
-  padding-top: 90px;
-  color: var(--blue);
-  font-size: calc(28 / 16 * 1rem);
-  font-weight: 700;
-}
-
-#projects .projects-text h1 {
-  color: var(--dark-grey);
+color: var(--dark-grey);
   font-size: calc(32 / 16 * 1rem);
-  font-weight: 700;
+  font-weight: 600;
+  margin-bottom: 10px;
 }
+
+#projects .project-text h2 .primary-text {
+  font-weight: 500;
+}
+
+#projects .project-text .line{
+  height: 1px;
+  width: 100%;
+  max-width: 650px;
+  margin-left: 10px;
+  background: rgba(216, 216, 216, 0.933);
+  }
+
+
 
 #projects .projects-wrapper {
   display: flex;
@@ -45,34 +52,40 @@
   width: 400px;
   border-radius: 8px;
 }
-#projects .projects-wrapper .projects-text {
+#projects .projects-wrapper .project-intro {
   width: 100%;
   max-width: 500px;
   text-align: initial;
 
 }
 
-#projects .projects-wrapper .projects-text h2 {
+#projects .projects-wrapper .project-intro h2 {
   color: var(--blue);
-  padding-bottom: 5px;
-
-  font-size: calc(24 / 16 * 1rem);
+font-weight: 600;
+font-size: calc(22 / 16 * 1rem);
 }
-#projects .projects-wrapper .projects-text h3 {
-  padding-bottom: 10px;
-  font-size: calc(22 / 16 * 1rem);
-  color: var(--dark-grey);
-}
-
-#projects .projects-wrapper .projects-text p {
-  font-weight: 500;
-  font-size: calc(18 / 16 * 1rem);
-  padding-bottom: 10px;
-}
-
-#projects .projects-wrapper .projects-text a,
-#projects .projects-wrapper .projects-text a:visited {
+#projects .projects-wrapper .project-intro h3 {
   font-weight: 600;
-  font-size: calc(18 / 16 * 1rem);
+  padding-top: 0;
+  padding-bottom: 8px;
+  font-size: calc(21 / 16 * 1rem);
   color: var(--dark-grey);
+}
+
+#projects .projects-wrapper .project-intro p {
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+
+
+#projects .projects-wrapper .project-intro svg {
+  font-size: calc(28 / 16 * 1rem);
+  color: var(--blue);
+transition: transform .3s ease;
+}
+
+
+#projects .projects-wrapper .project-intro svg:hover {
+transform: translateY(-3px);
+
 }
