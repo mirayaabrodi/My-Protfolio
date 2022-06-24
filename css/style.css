@@ -19,12 +19,12 @@
 .hero-introduction h1 {
   font-weight: 700;
   color: var(--white);
-  font-size: calc(60 / 16 * 1rem);
+  font-size: calc(65 / 16 * 1rem);
 }
 .hero-introduction h2 {
   font-weight: 700;
   color: #2c559d;
-  font-size: calc(60 / 16 * 1rem);
+  font-size: calc(65 / 16 * 1rem);
   margin-bottom: 20px;
 }
 
@@ -94,10 +94,11 @@
   color: var(--dark-grey);
 }
 
-.svg-active a svg:hover{
+.svg-active a svg{
   color: var(--blue);
 }
 
-.contact-svg-active .svg-active a svg{
-  color: var(--white);
+.contact-svg a svg{
+  color: #fff;
 }
+
