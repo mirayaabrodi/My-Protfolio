@@ -1,0 +1,150 @@
+
+:root {
+    --blue: #4181ed;
+    --white: #fff;
+    --dark-grey: #3c3e46;
+    --light-grey: #9391a2;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    /* outline: red solid 2px; */
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  
+  body {
+    font-size: calc(18 / 16 * 1rem);
+    color: var(--light-grey);
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .primary-text {
+    color: var(--blue);
+  }
+  
+  /* Nav */
+  
+  header {
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    transition: background-color 0.5s ease;
+    z-index: 1000;
+  }
+  
+  .nav {
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: height 0.5s ease;
+  }
+  
+  .nav i {
+    font-size: calc(26 / 16 * 1rem);
+    color: var(--white);
+  }
+  
+  .nav a {
+    font-weight: 500;
+    color: var(--white);
+    font-size: calc(18 / 16 * 1rem);
+    transition: all 0.3s ease;
+  }
+  
+  
+  
+  .nav-list {
+    display: flex;
+  }
+  
+  .nav-list .nav-link {
+    padding: 20px;
+  }
+    
+  /*Apply styles after scroll*/
+  .scrolling-active {
+    background-color: #fff;
+  }
+  
+  .scrolling-active .nav a,
+  .scrolling-active .nav a:visited {
+    color: var(--light-grey);
+  }
+  
+  .scrolling-active .nav a,
+  .scrolling-active .nav a:hover {
+    color: #757283;
+  }
+  
+  .scrolling-active .nav i,
+  .scrolling-active .nav i:visited {
+    color: var(--blue);
+  }
+  
+  .scrolling-active .nav-link::after {
+    background-color: #313131;
+  }
+  
+  /* Mobile nav */
+  .mobile-nav {
+    display: none;
+    /* display: flex; */
+    width: 100%;
+    height: 6rem;
+    position: fixed;
+    bottom: 0;
+    background: #333333;
+    box-shadow: 0 -8px 1rem rgba(0, 0, 0, 0.1);
+  }
+  
+  .mobile-nav .nav-nav {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 0 130px;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .mobile-nav.nav-nav .nav-item a,
+  .mobile-nav.nav-nav .nav-item a:visited {
+    display: flex;
+    gap: 10px 0;
+    flex-direction: column;
+    color: #979797;
+    transition: all 0.3s ease;
+  }
+  
+  .mobile-nav.nav-nav .nav-item a span {
+    font-size: 0.9rem;
+  }
+  
+  .mobile-nav.nav-nav .nav-item a i {
+    font-size: calc(28 / 16 * 1rem);
+  }
+  
+  .mobile-nav.nav-nav .nav-item a:hover {
+    color: #b3b1b1;
+  }
+  
+  .mobile-nav.nav-nav .nav-item a:active {
+    color: var(--blue);
+  }
+  
