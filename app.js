@@ -8,7 +8,7 @@ window.addEventListener('scroll', function () {
 
 
     let svgPosition = window.scrollY > 40;
-    let svgContactPosition = window.scrollY > 100;
+    let svgContactPosition = window.scrollY > 3900;
 
 
 
@@ -16,7 +16,7 @@ window.addEventListener('scroll', function () {
     header.classList.toggle('scrolling-active', navPosition);
     header.classList.toggle('contact-active', navContactPosition)
     social.classList.toggle('svg-active', svgPosition);
-    social.classList.toggle('contact-svg-active', svgContactPosition)
+    social.classList.toggle('contact-svg', svgContactPosition)
 
 })
 
