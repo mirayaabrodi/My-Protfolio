@@ -19,12 +19,12 @@
 .hero-introduction h1 {
   font-weight: 700;
   color: var(--white);
-  font-size: calc(70 / 16 * 1rem);
+  font-size: calc(60 / 16 * 1rem);
 }
 .hero-introduction h2 {
   font-weight: 700;
   color: #2c559d;
-  font-size: calc(70 / 16 * 1rem);
+  font-size: calc(60 / 16 * 1rem);
   margin-bottom: 20px;
 }
 
@@ -98,28 +98,6 @@
   color: var(--blue);
 }
 
-
-footer {
-  flex-direction: column;
-  text-align: center;
-  padding: 15px;
-  display: flex;
-}
-
-footer a, footer a:visited{
-  color: var(--light-grey);
- font-size: 1rem;
- transition: all .3s ease;
-}
-footer a:hover{
-color: var(--blue);
-}
- footer .social-footer {
-   display: none;
-   margin-bottom: 10px;
- }
-
-footer .social-footer a{
-  font-size: calc(22 / 16 * 1rem);
-padding: 0 15px  ;
+.contact-svg-active .svg-active a svg{
+  color: var(--white);
 }
