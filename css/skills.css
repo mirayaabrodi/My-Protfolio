@@ -2,36 +2,43 @@
 #skills {
   width: 100%;
   max-width: 1500px;
-  margin: auto;
   height: 100vh;
   display: flex;
+  margin: auto;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
 }
 
 #skills .skills-text {
-  text-align: center;
+  display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-#skills .skills-text h3 {
-  color: var(--blue);
-  font-size: calc(28 / 16 * 1rem);
-  font-weight: 700;
-}
-
-#skills .skills-text h1 {
+#skills .skills-text h2 {
   color: var(--dark-grey);
   font-size: calc(32 / 16 * 1rem);
-  font-weight: 700;
+  font-weight: 600;
 }
+
+#skills .skills-text h2 .primary-text {
+  font-weight: 500;
+}
+
+#skills .skills-text .line{
+  height: 1px;
+  width: 100%;
+  max-width: 530px;
+  margin-left: 10px;
+  background: rgba(216, 216, 216, 0.933);
+  }
 
 #skills.skills-text p {
   font-weight: 500;
 }
 
 #skills .skills-wrapper {
-  margin-top: 100px;
+  margin-top: 70px;
   gap: 100px 50px;
   display: grid;
   align-items: center;
@@ -45,17 +52,17 @@
 
 #skills .skills-wrapper .icon-box i {
   color: var(--blue);
-  font-size: calc(70 / 16 * 1rem);
+  font-size: calc(60 / 16 * 1rem);
   padding-bottom: 10px;
 }
 
 #skills .skills-wrapper .icon-box svg {
   color: var(--blue);
-  font-size: calc(70 / 16 * 1rem);
+  font-size: calc(60 / 16 * 1rem);
   padding-bottom: 10px;
 }
 
 #skills .skills-wrapper .icon-box p {
   font-weight: 500;
-  font-size: calc(16 / 16 * 1rem);
+  font-size: calc(15 / 16 * 1rem);
 }
