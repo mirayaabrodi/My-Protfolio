@@ -1,16 +1,11 @@
 window.addEventListener('scroll', function () {
-
     let header = document.querySelector('header');
-
     let social = document.querySelector('.social')
+    let svgPosition = window.scrollY > 40;
+    let navPosition = window.scrollY > 800;
 
-    let windowsPosition = window.scrollY > 40;
-
-    let windowPosition = window.scrollY > 800;
-
-    header.classList.toggle('scrolling-active', windowPosition);
-
-    social.classList.toggle('svg-active', windowsPosition);
+    header.classList.toggle('scrolling-active', navPosition);
+    social.classList.toggle('svg-active', svgPosition);
 })
 
 
@@ -29,3 +24,4 @@ const submitForm = (e) => {
 }
 
 SUBMIT.addEventListener('click', submitForm);
+
