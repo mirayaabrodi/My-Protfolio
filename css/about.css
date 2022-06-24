@@ -21,10 +21,13 @@
   #about .about-text .about-wrapper h2{
   color: var(--dark-grey);
     font-size: calc(32 / 16 * 1rem);
-    font-weight: 700;
+    font-weight: 600;
     margin-bottom: 10px;
   }
   
+  #about .about-text .about-wrapper h2 .primary-text {
+    font-weight: 500;
+  }
   
   #about .about-text .about-wrapper .line{
     height: 1px;
