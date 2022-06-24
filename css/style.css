@@ -19,8 +19,9 @@ html {
   scroll-behavior: smooth;
 }
 
+
 body {
-  font-size: calc(20 / 16 * 1rem);
+  font-size: calc(18 / 16 * 1rem);
   color: var(--light-grey);
 }
 
@@ -218,7 +219,7 @@ header {
   width: 20px;
   z-index: 100;
   bottom: 30px;
-  height: 200px;
+  height: 160px;
   display: flex;
   position: fixed;
   flex-direction: column;
@@ -228,13 +229,44 @@ header {
   margin-top: 10px;
   color: var(--white);
   transition: color  0.3s ease;
-  font-size: calc(33 / 16 * 1rem);
+  font-size: calc(27 / 16 * 1rem);
 }
 
-.social .in {
-  font-size: calc(29 / 16 * 1rem);
+.social .in svg {
+  font-size: calc(25 / 16 * 1rem);
 }
+
 
 .svg-active a svg{
+  color: var(--dark-grey);
+}
+
+.svg-active a svg:hover{
   color: var(--blue);
+}
+
+
+footer {
+  flex-direction: column;
+  text-align: center;
+  padding: 15px;
+  display: flex;
+}
+
+footer a, footer a:visited{
+  color: var(--light-grey);
+ font-size: 1rem;
+ transition: all .3s ease;
+}
+footer a:hover{
+color: var(--blue);
+}
+ footer .social-footer {
+   display: none;
+   margin-bottom: 10px;
+ }
+
+footer .social-footer a{
+  font-size: calc(22 / 16 * 1rem);
+padding: 0 15px  ;
 }
