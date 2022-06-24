@@ -119,14 +119,14 @@ position: fixed;
 }
 
 .hero {
-  height: 100vh;
+  height: 90vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .hero-introduction  {
-padding: 0 10px;
+padding: 0 50px;
 }
 
 .hero-introduction h3 {
@@ -138,12 +138,12 @@ padding: 0 10px;
 .hero-introduction h1 {
   font-weight: 700;
   color: var(--dark-grey);
-  font-size: calc(60 / 16 * 1rem);
+  font-size: calc(70 / 16 * 1rem);
 }
 .hero-introduction h2 {
   font-weight: 700;
   color: var(--light-grey);
-  font-size: calc(60 / 16 * 1rem);
+  font-size: calc(70 / 16 * 1rem);
 }
 
 .hero-introduction .hero-btn {
@@ -168,5 +168,6 @@ padding: 0 10px;
 
 
 .hero img {
-  width: 400px;
+  width: 300px;
+  transform: rotate(-2deg);
 }
