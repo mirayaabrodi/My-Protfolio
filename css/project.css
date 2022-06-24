@@ -11,6 +11,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 50px;
 }
 
 #projects .project-text h2{
@@ -18,7 +19,7 @@
 color: var(--dark-grey);
   font-size: calc(32 / 16 * 1rem);
   font-weight: 600;
-  margin-bottom: 10px;
+  
 }
 
 #projects .project-text h2 .primary-text {
