@@ -69,6 +69,8 @@ header {
   transition: all 0.3s ease;
 }
 
+
+
 .nav-list {
   display: flex;
 }
@@ -76,7 +78,7 @@ header {
 .nav-list .nav-link {
   padding: 20px;
 }
-
+  
 /*Apply styles after scroll*/
 .scrolling-active {
   background-color: #fff;
@@ -172,15 +174,15 @@ header {
   font-weight: 700;
   color: #2c559d;
   font-size: calc(70 / 16 * 1rem);
+  margin-bottom: 20px;
 }
 
-.hero-introduction .hero-btn {
+.hero-introduction a {
   cursor: pointer;
-  margin-top: 15px;
   font-weight: 500;
   font-size: calc(18 / 16 * 1rem);
   width: 130px;
-  padding: 8px 20px;
+  padding: 8px 30px;
   background: none;
   border-radius: 5px;
   color: var(--white);
@@ -188,7 +190,7 @@ header {
   border: 2px solid var(--white);
 }
 
-.hero-introduction .hero-btn:hover {
+.hero-introduction a:hover {
   background: rgba(255, 255, 255, 0.179);
 }
 
