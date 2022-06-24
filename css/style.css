@@ -72,7 +72,7 @@
   width: 20px;
   z-index: 100;
   bottom: 30px;
-  height: 160px;
+  height: 180px;
   display: flex;
   position: fixed;
   flex-direction: column;
@@ -82,19 +82,21 @@
   margin-top: 10px;
   color: var(--white);
   transition: color  0.3s ease;
-  font-size: calc(27 / 16 * 1rem);
+  font-size: calc(23 / 16 * 1rem);
 }
 
-.social .in svg {
-  font-size: calc(25 / 16 * 1rem);
+
+.social .tiktok svg {
+  font-size: calc(24 / 16 * 1rem);
 }
+
 
 
 .svg-active a svg{
   color: var(--dark-grey);
 }
 
-.svg-active a svg{
+.svg-active a svg:hover{
   color: var(--blue);
 }
 
