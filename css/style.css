@@ -188,7 +188,7 @@ header {
 }
 
 .hero-introduction .hero-btn:hover {
-background: rgba(255, 255, 255, 0.179);
+  background: rgba(255, 255, 255, 0.179);
 }
 
 .code {
@@ -209,4 +209,32 @@ background: rgba(255, 255, 255, 0.179);
 
 .thick {
   font-weight: 600;
+}
+
+/* Social(Media) */
+.social,
+.social:visited {
+  right: 40px;
+  width: 20px;
+  z-index: 100;
+  bottom: 30px;
+  height: 200px;
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+}
+
+.social svg {
+  margin-top: 10px;
+  color: var(--white);
+  transition: color  0.3s ease;
+  font-size: calc(33 / 16 * 1rem);
+}
+
+.social .in {
+  font-size: calc(29 / 16 * 1rem);
+}
+
+.svg-active a svg{
+  color: var(--blue);
 }
