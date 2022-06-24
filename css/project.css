@@ -16,6 +16,7 @@
 }
 
 #projects .projects-text h3 {
+  padding-top: 90px;
   color: var(--blue);
   font-size: calc(28 / 16 * 1rem);
   font-weight: 700;
