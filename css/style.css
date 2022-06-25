@@ -72,7 +72,7 @@
   width: 20px;
   z-index: 100;
   bottom: 30px;
-  height: 180px;
+  height: 190px;
   display: flex;
   position: fixed;
   flex-direction: column;
@@ -81,26 +81,81 @@
 .social svg {
   margin-top: 10px;
   color: var(--white);
-  transition: color  0.3s ease;
+  transition: color 0.3s ease;
   font-size: calc(23 / 16 * 1rem);
 }
-
 
 .social .tiktok svg {
   font-size: calc(24 / 16 * 1rem);
 }
 
-
-
-.svg-active a svg{
+.svg-active a svg {
   color: var(--dark-grey);
 }
 
-.svg-active a svg:hover{
+.svg-active a svg:hover {
   color: var(--blue);
 }
 
-.contact-svg a svg{
-  color: #fff;
+
+
+@media screen and (max-width: 1220px) {
+  .code {
+    width: 380px;
+  }
+
+  .code p {
+    font-size: 0.83rem;
+  }
 }
 
+
+@media screen and (max-width:1120px) {
+
+.hero-introduction h3 {
+  font-size: calc(30 / 16 * 1rem);
+}
+
+.hero-introduction h1 {
+  font-size: calc(80 / 16 * 1rem);
+}
+.hero-introduction h2 {
+  font-size: calc(80 / 16 * 1rem);
+}
+
+.hero-introduction a {
+  width: 150px;
+}
+
+.code {
+ display: none;
+}
+
+}
+
+
+
+
+/* @media screen and (max-width:1120px) {
+
+  .hero-introduction h3 {
+    font-size: calc(30 / 16 * 1rem);
+  }
+  
+  .hero-introduction h1 {
+    font-size: calc(80 / 16 * 1rem);
+  }
+  .hero-introduction h2 {
+    font-size: calc(80 / 16 * 1rem);
+  }
+  
+  .hero-introduction a {
+    font-size: calc(18 / 16 * 1rem);
+    width: 150px;
+  }
+  
+  .code {
+   display: none;
+  }
+  
+} */

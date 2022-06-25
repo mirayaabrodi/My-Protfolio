@@ -66,3 +66,31 @@
   font-weight: 500;
   font-size: calc(15 / 16 * 1rem);
 }
+
+
+
+
+
+@media screen and (max-width: 1040px) {
+  
+
+  
+  #skills .skills-text .line{
+    max-width: 380px;
+    }
+
+  #skills .skills-wrapper {
+    margin-top: 80px;
+    grid-template-columns: repeat(4, 150px);
+  }
+  
+  
+  #skills .skills-wrapper .icon-box i {
+    font-size: calc(50 / 16 * 1rem);
+  }
+  
+  #skills .skills-wrapper .icon-box svg {
+    font-size: calc(55 / 16 * 1rem);
+  }
+  
+}

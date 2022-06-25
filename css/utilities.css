@@ -144,23 +144,3 @@ header {
   color: var(--blue);
 }
 
-/* CONTACT */
-
-.contact-active{
-  background-color: var(--blue);
-}
-
-.contact-active .nav a,
-.contact-active .nav a:visited {
-  color: var(--white);
-}
-
-.contact-active .nav a,
-.contact-active .nav a:hover {
-  color: var(--white);
-}
-
-.contact-active .nav i,
-.contact-active .nav i:visited {
-  color: var(--white);
-}

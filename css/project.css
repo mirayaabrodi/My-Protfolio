@@ -7,34 +7,31 @@
   flex-direction: column;
 }
 
-#projects .project-text {  padding-top: 120px;
+#projects .project-text {
+  padding-top: 120px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 50px;
 }
 
-#projects .project-text h2{
-
-color: var(--dark-grey);
+#projects .project-text h2 {
+  color: var(--dark-grey);
   font-size: calc(32 / 16 * 1rem);
   font-weight: 600;
-  
 }
 
 #projects .project-text h2 .primary-text {
   font-weight: 500;
 }
 
-#projects .project-text .line{
+#projects .project-text .line {
   height: 1px;
   width: 100%;
   max-width: 650px;
   margin-left: 10px;
   background: rgba(216, 216, 216, 0.933);
-  }
-
-
+}
 
 #projects .projects-wrapper {
   display: flex;
@@ -43,11 +40,10 @@ color: var(--dark-grey);
   justify-content: space-evenly;
 }
 
-#projects .projects-wrapper:nth-child(3), 
+#projects .projects-wrapper:nth-child(3),
 #projects .projects-wrapper:nth-child(5) {
   flex-direction: row-reverse;
 }
-
 
 #projects .projects-wrapper video {
   width: 400px;
@@ -57,13 +53,12 @@ color: var(--dark-grey);
   width: 100%;
   max-width: 500px;
   text-align: initial;
-
 }
 
 #projects .projects-wrapper .project-intro h2 {
   color: var(--blue);
-font-weight: 600;
-font-size: calc(22 / 16 * 1rem);
+  font-weight: 600;
+  font-size: calc(22 / 16 * 1rem);
 }
 #projects .projects-wrapper .project-intro h3 {
   font-weight: 600;
@@ -78,15 +73,61 @@ font-size: calc(22 / 16 * 1rem);
   padding-bottom: 20px;
 }
 
-
 #projects .projects-wrapper .project-intro svg {
   font-size: calc(28 / 16 * 1rem);
   color: var(--blue);
-transition: transform .3s ease;
+  transition: transform 0.3s ease;
 }
 
-
 #projects .projects-wrapper .project-intro svg:hover {
-transform: translateY(-3px);
+  transform: translateY(-3px);
+}
 
+@media screen and (max-width: 1120px) {
+  #projects .project-text .line {
+    max-width: 500px;
+  }
+
+  #projects .projects-wrapper .project-intro {
+    width: 100%;
+    max-width: 450px;
+    text-align: initial;
+  }
+
+  #projects .projects-wrapper .project-intro svg {
+    font-size: calc(27 / 16 * 1rem);
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  #projects .project-text {
+    padding-top: 120px;
+    margin-bottom: 0;
+  }
+
+  #projects .project-text .line {
+    max-width: 80px;
+  }
+
+  #projects .projects-wrapper {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #projects .projects-wrapper:nth-child(3),
+  #projects .projects-wrapper:nth-child(5) {
+    flex-direction: column;
+  }
+
+
+  #projects .projects-wrapper video {
+    width: 450px;
+    margin-bottom: 30px;
+  }
+
+  #projects .projects-wrapper .project-intro {
+    max-width: 450px;;
+  
+  }
+ 
 }
