@@ -2,7 +2,7 @@ window.addEventListener('scroll', function () {
     let header = document.querySelector('header');
     let social = document.querySelector('.social')
 
-    let navPosition = window.scrollY > 800;
+    let navPosition = window.scrollY > 750;
     let svgPosition = window.scrollY > 40;
 
 
@@ -27,7 +27,7 @@ window.addEventListener('scroll', function () {
     social.classList.toggle('mobile-contact-svg', mobilePositionContactSvg)
 })
 
-
+// Submit contact button
 
 const SUBMIT = document.querySelector('#submit');
 
@@ -38,9 +38,31 @@ const submitForm = (e) => {
             e.target.classList.remove('active');
             e.target.classList.add('done');
             e.target.innerHTML = 'Done'
-        }, 1000);
+        }, 2000);
     }
 }
 
 SUBMIT.addEventListener('click', submitForm);
 
+
+
+// Hamburger menu
+
+const hamburger = document.querySelector(".hamburger-menu");
+const navMenu = document.querySelector(".nav-list");
+
+hamburger.addEventListener("click", mobileMenu);
+
+function mobileMenu() {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+}
+
+const navLink = document.querySelectorAll(".nav-link");
+
+navLink.forEach(n => n.addEventListener("click", closeMenu));
+
+function closeMenu() {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+}
