@@ -188,3 +188,13 @@ footer .social-footer a {
     color: #fff;
   }
 }
+
+@media screen and (max-width: 930px) {
+  .mobile-contact-active .nav-list {
+    background-color: var(--blue);
+  }
+
+  .mobile-contact-active .nav .bar {
+    background-color: var(--white);
+  }
+}

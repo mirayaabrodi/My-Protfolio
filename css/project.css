@@ -119,15 +119,12 @@
     flex-direction: column;
   }
 
-
   #projects .projects-wrapper video {
     width: 450px;
     margin-bottom: 30px;
   }
 
   #projects .projects-wrapper .project-intro {
-    max-width: 450px;;
-  
+    max-width: 450px;
   }
- 
 }

@@ -11,8 +11,8 @@
 
 #skills .skills-text {
   display: flex;
-    align-items: center;
-    justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 #skills .skills-text h2 {
@@ -25,13 +25,13 @@
   font-weight: 500;
 }
 
-#skills .skills-text .line{
+#skills .skills-text .line {
   height: 1px;
   width: 100%;
   max-width: 530px;
   margin-left: 10px;
   background: rgba(216, 216, 216, 0.933);
-  }
+}
 
 #skills.skills-text p {
   font-weight: 500;
@@ -67,30 +67,21 @@
   font-size: calc(15 / 16 * 1rem);
 }
 
-
-
-
-
 @media screen and (max-width: 1040px) {
-  
-
-  
-  #skills .skills-text .line{
+  #skills .skills-text .line {
     max-width: 380px;
-    }
+  }
 
   #skills .skills-wrapper {
     margin-top: 80px;
     grid-template-columns: repeat(4, 150px);
   }
-  
-  
+
   #skills .skills-wrapper .icon-box i {
     font-size: calc(50 / 16 * 1rem);
   }
-  
+
   #skills .skills-wrapper .icon-box svg {
     font-size: calc(55 / 16 * 1rem);
   }
-  
 }
