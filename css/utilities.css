@@ -84,6 +84,10 @@ header {
   color: var(--light-grey);
 }
 
+.scrolling-active .nav .bar {
+  background-color: var(--blue);
+}
+
 .scrolling-active .nav a,
 .scrolling-active .nav a:hover {
   color: #6c697b;
@@ -98,50 +102,66 @@ header {
   background-color: #313131;
 }
 
-/* Mobile nav */
-.mobile-nav {
+.scrolling-active {
+  background-color: #fff;
+}
+
+.scrolling-active .nav-list {
+  background-color: var(--white);
+}
+
+/* HAMBURGER MENU */
+.hamburger-menu {
   display: none;
-  /* display: flex; */
-  width: 100%;
-  height: 6rem;
-  position: fixed;
-  bottom: 0;
-  background: #333333;
-  box-shadow: 0 -8px 1rem rgba(0, 0, 0, 0.1);
 }
 
-.mobile-nav .nav-nav {
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  gap: 0 130px;
-  align-items: center;
-  text-align: center;
+.bar {
+  width: 30px;
+  height: 3px;
+  display: block;
+  margin: 5px auto;
+  border-radius: 5px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: var(--white);
 }
 
-.mobile-nav.nav-nav .nav-item a,
-.mobile-nav.nav-nav .nav-item a:visited {
-  display: flex;
-  gap: 10px 0;
-  flex-direction: column;
-  color: #979797;
-  transition: all 0.3s ease;
-}
+/* MOBILE */
 
-.mobile-nav.nav-nav .nav-item a span {
-  font-size: 0.9rem;
-}
+@media screen and (max-width: 930px) {
+  .nav-list {
+    position: fixed;
+    left: -100%;
+    top: 5rem;
+    flex-direction: column;
+    background-color: var(--blue);
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 20px 1rem rgba(0, 0, 0, 0.03);
+  }
 
-.mobile-nav.nav-nav .nav-item a i {
-  font-size: calc(28 / 16 * 1rem);
-}
+  .nav-list.active {
+    left: 0;
+  }
 
-.mobile-nav.nav-nav .nav-item a:hover {
-  color: #b3b1b1;
-}
+  .nav-list li {
+    margin: 2.5rem 0;
+  }
 
-.mobile-nav.nav-nav .nav-item a:active {
-  color: var(--blue);
-}
+  .hamburger-menu {
+    display: block;
+    cursor: pointer;
+  }
 
-/* CONTACT */
+  .hamburger-menu.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger-menu.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger-menu.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+}
