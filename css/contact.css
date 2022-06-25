@@ -6,7 +6,7 @@
   align-items: center;
   flex-direction: column;
 
-  background:var(--blue);
+  background: var(--blue);
 }
 
 #contact .contact-wrapper {
@@ -42,7 +42,7 @@
   font-weight: 500;
   font-size: calc(19 / 16 * 1rem);
   color: var(--white);
-border: 2px solid var(--white);
+  border: 2px solid var(--white);
   padding: 10px 0;
   display: flex;
   width: 100%;
@@ -63,16 +63,15 @@ border: 2px solid var(--white);
 
 .submit.done {
   max-width: 100px;
-
 }
 
-.submit.active i{
+.submit.active i {
   animation: move 1000ms forwards ease-in-out;
 }
 
-.submit i{
+.submit i {
   font-size: calc(22 / 16 * 1rem);
-margin-left: 10px;
+  margin-left: 10px;
   transition: all 900ms;
   offset-path: path("M12,12c0,0,186.7,42.3,234.7-177");
 }
@@ -89,8 +88,6 @@ margin-left: 10px;
   }
 }
 
-
-
 footer {
   flex-direction: column;
   text-align: center;
@@ -98,22 +95,96 @@ footer {
   display: flex;
 }
 
-footer a, footer a:visited{
+footer a,
+footer a:visited {
   color: #a5c4f8;
- font-size: 1rem;
- transition: all .3s ease;
+  font-size: 1rem;
+  transition: all 0.3s ease;
 }
-footer a:hover{
-color: var(--white);
+footer a:hover {
+  color: var(--white);
 }
- footer .social-footer {
-   display: none;
-   margin-bottom: 10px;
- }
+footer .social-footer {
+  display: none;
+  margin-bottom: 10px;
+}
 
-footer .social-footer a{
+footer .social-footer a {
   font-size: calc(22 / 16 * 1rem);
-padding: 0 15px  ;
+  padding: 0 15px;
 }
 
+/* CONTACT */
 
+.contact-active {
+  background-color: var(--blue);
+}
+
+.contact-active .nav a,
+.contact-active .nav a:visited {
+  color: var(--white);
+}
+
+.contact-active .nav a,
+.contact-active .nav a:hover {
+  color: var(--white);
+}
+
+.contact-active .nav i,
+.contact-active .nav i:visited {
+  color: var(--white);
+}
+
+.contact-svg a svg {
+  color: #fff;
+}
+
+/* MEDIA QUERY  */
+
+@media screen and (max-width: 1040px) {
+  .contact-active {
+    background-color: #fff;
+  }
+
+  .contact-active .nav a,
+  .contact-active .nav a:visited {
+    color: var(--light-grey);
+  }
+
+  .contact-active .nav a,
+  .contact-active .nav a:hover {
+    color: var(--dark-grey);
+  }
+
+  .contact-active .nav i,
+  .contact-active .nav i:visited {
+    color: var(--blue);
+  }
+
+  .contact-svg a svg {
+    color: var(--dark-grey);
+  }
+
+  .mobile-contact-active {
+    background-color: var(--blue);
+  }
+
+  .mobile-contact-active .nav a,
+  .mobile-contact-active .nav a:visited {
+    color: var(--white);
+  }
+
+  .mobile-contact-active .nav a,
+  .mobile-contact-active .nav a:hover {
+    color: var(--white);
+  }
+
+  .mobile-contact-active .nav i,
+  .mobile-contact-active .nav i:visited {
+    color: var(--white);
+  }
+
+  .mobile-contact-svg a svg {
+    color: #fff;
+  }
+}

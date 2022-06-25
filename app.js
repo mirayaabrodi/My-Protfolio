@@ -3,21 +3,28 @@ window.addEventListener('scroll', function () {
     let social = document.querySelector('.social')
 
     let navPosition = window.scrollY > 800;
-        let navContactPosition = window.scrollY > 4400;
-
-
-
     let svgPosition = window.scrollY > 40;
+
+
+    let navContactPosition = window.scrollY > 4400;
     let svgContactPosition = window.scrollY > 3900;
+
+    let mobilePositionContact = window.scrollY > 5550;
+    let mobilePositionContactSvg = window.scrollY > 4850;
 
 
 
 
     header.classList.toggle('scrolling-active', navPosition);
-    header.classList.toggle('contact-active', navContactPosition)
     social.classList.toggle('svg-active', svgPosition);
+
+
+    header.classList.toggle('contact-active', navContactPosition)
     social.classList.toggle('contact-svg', svgContactPosition)
 
+
+    header.classList.toggle('mobile-contact-active', mobilePositionContact)
+    social.classList.toggle('mobile-contact-svg', mobilePositionContactSvg)
 })
 
 
