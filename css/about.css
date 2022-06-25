@@ -118,7 +118,7 @@ img {
   }
 
   #about .about-text .about-wrapper .line {
-    max-width: 200px;
+    max-width: 180px;
   }
 
   #about .about-text .about-wrapper h2 {
@@ -131,5 +131,28 @@ img {
 
   img {
     width: 230px;
+  }
+}
+
+
+@media screen and (max-width: 450px) {
+  #about .about-text {
+    width: 300px;
+  }
+
+  #about .about-text .about-wrapper .line {
+    max-width: 130px;
+  }
+
+  #about .about-text .about-wrapper h2 {
+    font-size: calc(24 / 16 * 1rem);
+  }
+
+  #about .about-text p {
+    font-size: 0.95rem;
+  }
+
+  img {
+    width: 220px;
   }
 }

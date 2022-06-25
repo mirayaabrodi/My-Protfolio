@@ -4,6 +4,7 @@
   max-width: 1500px;
   margin: auto;
   display: flex;
+ padding-bottom: 150px;
   flex-direction: column;
 }
 
@@ -244,3 +245,19 @@
     font-size: calc(23 / 16 * 1rem);
   }
 }
+
+
+
+@media screen and (max-width: 450px) {
+  #projects .projects-wrapper video {
+    width: 260px;
+    margin-bottom: 30px;
+  }
+  #projects .project-text h2 {
+    font-size: calc(24 / 16 * 1rem);
+    text-align: center;
+    width: 200px;
+  }
+  #projects .projects-wrapper .project-intro {
+    width: 260px;
+}}

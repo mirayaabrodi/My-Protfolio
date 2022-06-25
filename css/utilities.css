@@ -106,9 +106,7 @@ header {
   background-color: #fff;
 }
 
-.scrolling-active .nav-list {
-  background-color: var(--white);
-}
+
 
 /* HAMBURGER MENU */
 .hamburger-menu {
@@ -129,6 +127,10 @@ header {
 /* MOBILE */
 
 @media screen and (max-width: 930px) {
+  .scrolling-active   .nav-list{
+    background-color: #fff;
+  }
+  
   .nav-list {
     position: fixed;
     left: -100%;

@@ -6,10 +6,10 @@ window.addEventListener('scroll', function () {
     let svgPosition = window.scrollY > 40;
 
 
-    let navContactPosition = window.scrollY > 4400;
+    let navContactPosition = window.scrollY > 4800;
     let svgContactPosition = window.scrollY > 3900;
 
-    let mobilePositionContact = window.scrollY > 5550;
+    let mobilePositionContact = window.scrollY > 4850;
     let mobilePositionContactSvg = window.scrollY > 4850;
 
 

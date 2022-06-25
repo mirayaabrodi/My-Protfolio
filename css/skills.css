@@ -86,8 +86,6 @@
   }
 }
 
-
-
 @media screen and (max-width: 850px) {
   #skills .skills-text .line {
     max-width: 200px;
@@ -108,7 +106,6 @@
 }
 
 @media screen and (max-width: 830px) {
-
   #skills .skills-text .line {
     max-width: 220px;
   }
@@ -118,7 +115,7 @@
     grid-template-columns: repeat(3, 145px);
   }
 
-  #skills .skills-text  h2 {
+  #skills .skills-text h2 {
     font-size: calc(26 / 16 * 1rem);
   }
 
@@ -126,13 +123,9 @@
     font-weight: 500;
     font-size: calc(14 / 16 * 1rem);
   }
-
-
 }
 
-
 @media screen and (max-width: 680px) {
-
   #skills {
     height: 140vh;
   }
@@ -146,7 +139,7 @@
     grid-template-columns: repeat(2, 180px);
   }
 
-  #skills .skills-text  h2 {
+  #skills .skills-text h2 {
     font-size: calc(26 / 16 * 1rem);
   }
 
@@ -154,7 +147,53 @@
     font-size: calc(14 / 16 * 1rem);
   }
 
-  #skills .skills-wrapper .icon-box svg,   #skills .skills-wrapper .icon-box i {
+  #skills .skills-wrapper .icon-box svg,
+  #skills .skills-wrapper .icon-box i {
     font-size: calc(50 / 16 * 1rem);
+  }
+}
+
+@media screen and (max-width: 575px) {
+  #skills {
+    height: 140vh;
+  }
+
+  #skills .skills-text .line {
+    width: 70px;
+  }
+
+  #skills .skills-wrapper {
+    margin-top: 70px;
+    grid-template-columns: repeat(2, 180px);
+  }
+
+  #skills .skills-text h2 {
+    font-size: calc(24 / 16 * 1rem);
+  }
+
+  #skills .skills-wrapper .icon-box p {
+    font-size: 0.85rem;
+  }
+
+  #skills .skills-wrapper .icon-box svg,
+  #skills .skills-wrapper .icon-box i {
+    font-size: calc(45 / 16 * 1rem);
+  }
+}
+
+
+@media screen and (max-width: 450px) {
+
+  #skills .skills-text .line {
+    display: none;
+  }
+
+  #skills .skills-wrapper .icon-box svg,
+  #skills .skills-wrapper .icon-box i {
+    font-size: calc(40 / 16 * 1rem);
+  }
+
+  #skills .skills-wrapper {
+    grid-template-columns: repeat(2, 100px);
   }
 }

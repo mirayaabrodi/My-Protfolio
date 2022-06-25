@@ -189,7 +189,7 @@ footer .social-footer a {
   }
 }
 
-@media screen and (max-width: 930px) {
+@media screen and (max-height: 930px) {
   .mobile-contact-active .nav-list {
     background-color: var(--blue);
   }
@@ -281,6 +281,41 @@ footer .social-footer a {
   
   .submit i {
     font-size: calc(18 / 16 * 1rem);
+  }
+
+}
+
+
+@media screen and (max-width: 450px) {
+  #contact .contact-wrapper h3 {
+    font-size: calc(18 / 16 * 1rem);
+    padding: 0;
+  }
+  
+  #contact .contact-wrapper h1 {
+    font-size: calc(30 / 16 * 1rem);
+    padding-bottom: 5px;
+  }
+  
+  #contact .contact-wrapper p {
+    width: 300px;
+    font-size: 1rem;
+  }
+
+  
+  .submit {
+    font-size: .9rem;
+    max-width: 150px;
+    padding: 8px 20px;
+  }
+  
+  .submit.done {
+    max-width: 80px;
+
+  }
+  
+  .submit i {
+    font-size: 1rem;
   }
 
 }
