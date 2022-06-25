@@ -3,7 +3,7 @@ window.addEventListener('scroll', function () {
     let social = document.querySelector('.social')
 
     let navPosition = window.scrollY > 800;
-        let navContactPosition = window.scrollY > 4700;
+        let navContactPosition = window.scrollY > 4400;
 
 
 
