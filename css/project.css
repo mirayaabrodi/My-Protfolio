@@ -128,3 +128,119 @@
     max-width: 450px;
   }
 }
+
+@media screen and (max-width: 830px) {
+  #projects {
+    padding-bottom: 130px;
+  }
+
+  #projects .project-text {
+    padding-top: 120px;
+    margin-bottom: 0;
+  }
+
+  #projects .project-text h2 {
+    font-size: calc(26 / 16 * 1rem);
+  }
+
+  #projects .projects-wrapper .project-intro h2 {
+    font-size: calc(20 / 16 * 1rem);
+  }
+  #projects .projects-wrapper .project-intro h3 {
+    font-size: calc(19 / 16 * 1rem);
+  }
+
+  #projects .projects-wrapper .project-intro p {
+    font-size: 1rem;
+  }
+  #projects .project-text .line {
+    max-width: 80px;
+  }
+
+  #projects .projects-wrapper video {
+    width: 400px;
+    margin-bottom: 30px;
+  }
+
+  #projects .projects-wrapper .project-intro {
+    max-width: 400px;
+  }
+
+  #projects .projects-wrapper .project-intro svg {
+    font-size: calc(25 / 16 * 1rem);
+  }
+}
+
+@media screen and (max-width: 680px) {
+  #projects {
+    padding-bottom: 130px;
+  }
+
+  #projects .projects-wrapper {
+    margin: 50px 0;
+    justify-content: center;
+  }
+
+  #projects .project-text {
+    padding-top: 130px;
+    padding-bottom: 50px;
+  }
+
+  #projects .projects-wrapper video {
+    width: 360px;
+    margin-bottom: 30px;
+  }
+
+  #projects .projects-wrapper .project-intro {
+    max-width: 360px;
+  }
+
+  #projects .projects-wrapper .project-intro svg {
+    font-size: calc(25 / 16 * 1rem);
+  }
+}
+
+@media screen and (max-width: 575px) {
+  #projects {
+    padding-bottom: 50px;
+  }
+
+  #projects .project-text {
+    padding-bottom: 50px;
+  }
+
+  #projects .project-text h2 {
+    font-size: calc(24 / 16 * 1rem);
+  }
+
+  #projects .project-text .line {
+    display: none;
+  }
+
+  #projects .projects-wrapper .project-intro h2 {
+    font-size: calc(19 / 16 * 1rem);
+  }
+  #projects .projects-wrapper .project-intro h3 {
+    font-size: calc(18 / 16 * 1rem);
+  }
+
+  #projects .projects-wrapper .project-intro p {
+    font-size: 0.9rem;
+  }
+  #projects .projects-wrapper {
+    margin: 50px 0;
+  }
+
+  #projects .projects-wrapper video {
+    width: 300px;
+    margin-bottom: 30px;
+  }
+
+  #projects .projects-wrapper .project-intro {
+    max-width: 300px;
+  }
+
+  #projects .projects-wrapper .project-intro svg {
+    font-size: calc(23 / 16 * 1rem);
+  }
+}
