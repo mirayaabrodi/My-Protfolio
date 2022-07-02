@@ -139,6 +139,10 @@ footer .social-footer a {
   color: #fff;
 }
 
+.contact-svg a svg:hover {
+  color: #fff;
+}
+
 /* MEDIA QUERY  */
 
 @media screen and (max-width: 1040px) {
