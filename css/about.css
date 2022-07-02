@@ -49,6 +49,7 @@ img {
   #about {
     flex-direction: column-reverse;
     justify-content: center;
+    margin-bottom: 100px;
   }
 
   #about .about-text {
@@ -134,7 +135,6 @@ img {
   }
 }
 
-
 @media screen and (max-width: 450px) {
   #about .about-text {
     width: 300px;
@@ -157,4 +157,25 @@ img {
   }
 }
 
+@media screen and (max-width: 375px) {
+  #about .about-text {
+    width: 320px;
+  }
 
+  #about .about-text .about-wrapper .line {
+    max-width: 130px;
+  }
+
+  #about .about-text .about-wrapper h2 {
+    font-size: calc(24 / 16 * 1rem);
+  }
+
+  #about .about-text p {
+    font-size: 0.95rem;
+  }
+
+  img {
+    display: none;
+    width: 220px;
+  }
+}

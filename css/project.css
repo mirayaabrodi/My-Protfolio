@@ -4,7 +4,7 @@
   max-width: 1500px;
   margin: auto;
   display: flex;
- padding-bottom: 150px;
+  padding-bottom: 150px;
   flex-direction: column;
 }
 
@@ -172,6 +172,14 @@
   }
 }
 
+/* @media screen and (max-height: 813px) {
+#projects {
+  
+  margin-bottom: 210px;
+}
+
+} */
+
 @media screen and (max-width: 680px) {
   #projects {
     padding-bottom: 130px;
@@ -246,8 +254,6 @@
   }
 }
 
-
-
 @media screen and (max-width: 450px) {
   #projects .projects-wrapper video {
     width: 260px;
@@ -260,4 +266,5 @@
   }
   #projects .projects-wrapper .project-intro {
     width: 260px;
-}}
+  }
+}

@@ -108,40 +108,37 @@
 }
 
 @media screen and (max-width: 1160px) {
-  
   .hero-introduction h3 {
     font-size: calc(25 / 16 * 1rem);
   }
-  
+
   .hero-introduction h1 {
     font-size: calc(60 / 16 * 1rem);
   }
   .hero-introduction h2 {
     font-size: calc(60 / 16 * 1rem);
   }
-  
+
   .hero-introduction a {
     font-size: calc(18 / 16 * 1rem);
     width: 130px;
     padding: 8px 20px;
   }
 
-
   .code {
     width: 370px;
   }
-  
+
   .code p {
     font-size: 0.8rem;
   }
 }
 
 @media screen and (max-width: 1048px) {
-  
   .hero-introduction h3 {
     font-size: calc(23 / 16 * 1rem);
   }
-  
+
   .hero-introduction h1 {
     font-size: calc(50 / 16 * 1rem);
   }
@@ -152,28 +149,24 @@
   .code {
     width: 365px;
   }
-  
 }
-
 
 @media screen and (max-width: 950px) {
-
   .hero {
-  flex-direction: column-reverse;
-  align-items: flex-start;
-  justify-content: center;
-}
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    justify-content: center;
+  }
 
-.hero-introduction  {
-  margin: 30px auto;
-  text-align: center;
-}
-
+  .hero-introduction {
+    margin: 30px auto;
+    text-align: center;
+  }
 
   .hero-introduction h3 {
     font-size: calc(25 / 16 * 1rem);
   }
-  
+
   .hero-introduction h1 {
     font-size: calc(55 / 16 * 1rem);
   }
@@ -181,38 +174,30 @@
     font-size: calc(55 / 16 * 1rem);
   }
 
-
   .code {
     margin: 0 auto;
     width: 370px;
-
   }
-  
-
 }
 
 @media screen and (max-width: 746px) {
   .hero-introduction h3 {
     font-size: calc(22 / 16 * 1rem);
   }
-  
+
   .hero-introduction h1 {
     font-size: calc(50 / 16 * 1rem);
   }
   .hero-introduction h2 {
     font-size: calc(50 / 16 * 1rem);
   }
-
- 
-
 }
-
 
 @media screen and (max-width: 620px) {
   .hero-introduction h3 {
     font-size: calc(20 / 16 * 1rem);
   }
-  
+
   .hero-introduction h1 {
     font-size: calc(45 / 16 * 1rem);
   }
@@ -225,28 +210,19 @@
     width: 100px;
     padding: 8px 15px;
   }
-
- 
-
 }
 
-
 @media screen and (max-width: 575px) {
-
   .social {
     display: none;
   }
-
 }
-
-
-
 
 @media screen and (max-width: 530px) {
   .hero-introduction h3 {
     font-size: calc(18 / 16 * 1rem);
   }
-  
+
   .hero-introduction h1 {
     font-size: calc(40 / 16 * 1rem);
   }
@@ -263,22 +239,18 @@
   .code {
     margin: 0 auto;
     width: 350px;
-
   }
 
   .code p {
     font-size: 0.75rem;
   }
-
-
-
 }
 
 @media screen and (max-width: 450px) {
   .hero-introduction h3 {
     font-size: calc(18 / 16 * 1rem);
   }
-  
+
   .hero-introduction h1 {
     font-size: calc(35 / 16 * 1rem);
   }
@@ -287,29 +259,24 @@
   }
 
   .hero-introduction a {
-    font-size: .9rem;
+    font-size: 0.9rem;
     padding: 7px 15px;
   }
 
   .code {
     width: 330px;
-
   }
 
   .code p {
     font-size: 0.71rem;
   }
-
-
-
 }
-
 
 @media screen and (max-width: 380px) {
   .hero-introduction h3 {
     font-size: calc(18 / 16 * 1rem);
   }
-  
+
   .hero-introduction h1 {
     font-size: calc(30 / 16 * 1rem);
   }
@@ -318,20 +285,15 @@
   }
 
   .hero-introduction a {
-    font-size: .9rem;
+    font-size: 0.9rem;
     padding: 7px 10px;
   }
 
   .code {
     width: 326px;
-
   }
 
   .code p {
     font-size: 0.7rem;
   }
-
-
-
 }
-

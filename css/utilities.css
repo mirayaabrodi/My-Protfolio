@@ -106,8 +106,6 @@ header {
   background-color: #fff;
 }
 
-
-
 /* HAMBURGER MENU */
 .hamburger-menu {
   display: none;
@@ -127,10 +125,10 @@ header {
 /* MOBILE */
 
 @media screen and (max-width: 930px) {
-  .scrolling-active   .nav-list{
+  .scrolling-active .nav-list {
     background-color: #fff;
   }
-  
+
   .nav-list {
     position: fixed;
     left: -100%;
@@ -165,5 +163,38 @@ header {
   }
   .hamburger-menu.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .six-mobile-width {
+    background-color: var(--white);
+  }
+
+  .six-mobile-width .nav a,
+  .six-mobile-width .nav a:visited {
+    color: var(--blue);
+  }
+
+  .six-mobile-width .nav .bar {
+    background-color: var(--blue);
+  }
+
+  .six-mobile-width .nav a,
+  .six-mobile-width .nav a:hover {
+    color: var(--blue);
+  }
+
+  .six-mobile-width .nav i,
+  .six-mobile-width .nav i:visited {
+    color: var(--blue);
+  }
+
+  .six-mobile-width .nav-link::after {
+    background-color: var(--light-grey);
+  }
+
+  .six-mobile-width .nav-list {
+    background-color: var(--white);
   }
 }
