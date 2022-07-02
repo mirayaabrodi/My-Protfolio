@@ -181,9 +181,7 @@
   }
 }
 
-
 @media screen and (max-width: 450px) {
-
   #skills .skills-text .line {
     display: none;
   }
@@ -195,5 +193,11 @@
 
   #skills .skills-wrapper {
     grid-template-columns: repeat(2, 100px);
+  }
+}
+
+@media screen and (max-height: 668px) {
+  #skills {
+    padding-top: 150px;
   }
 }
