@@ -173,7 +173,15 @@ header {
 
   .six-mobile-width .nav a,
   .six-mobile-width .nav a:visited {
-    color: var(--light-grey);
+    color: var(--blue);
+  }
+
+  .six-mobile-width .nav-list {
+    background-color: var(--white);
+  }
+  
+  .six-mobile-width .nav .bar {
+    background-color: var(--blue);
   }
 
   .six-mobile-width .nav .bar {
