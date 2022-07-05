@@ -66,6 +66,10 @@ header {
   transition: all 0.3s ease;
 }
 
+.nav a:hover {
+  color: rgba(255, 255, 255, 0.707);
+}
+
 .nav-list {
   display: flex;
 }
@@ -179,7 +183,7 @@ header {
   .six-mobile-width .nav-list {
     background-color: var(--white);
   }
-  
+
   .six-mobile-width .nav .bar {
     background-color: var(--blue);
   }

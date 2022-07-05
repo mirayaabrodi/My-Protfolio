@@ -61,13 +61,13 @@
 #projects .projects-wrapper .project-intro h2 {
   color: var(--blue);
   font-weight: 600;
-  font-size: calc(22 / 16 * 1rem);
+  font-size: calc(23 / 16 * 1rem);
 }
 #projects .projects-wrapper .project-intro h3 {
   font-weight: 600;
   padding-top: 0;
   padding-bottom: 8px;
-  font-size: calc(21 / 16 * 1rem);
+  font-size: calc(20 / 16 * 1rem);
   color: var(--dark-grey);
 }
 

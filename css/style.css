@@ -81,8 +81,13 @@
 .social svg {
   margin-top: 10px;
   color: var(--white);
-  transition: color 0.3s ease;
+  transition: all 0.3s ease;
   font-size: calc(23 / 16 * 1rem);
+}
+
+.social svg:hover {
+  color: rgba(255, 255, 255, 0.905);
+transform: translateX(-5px);
 }
 
 .social .tiktok svg {
