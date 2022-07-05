@@ -75,26 +75,26 @@ header {
 }
 
 /*Apply styles after scroll*/
-.scrolling-active {
+.six-mobile-width {
   background-color: #fff;
 }
 
-.scrolling-active .nav a,
-.scrolling-active .nav a:visited {
+.six-mobile-width .nav a,
+.six-mobile-width .nav a:visited {
   color: var(--light-grey);
 }
 
-.scrolling-active .nav .bar {
+.six-mobile-width .nav .bar {
   background-color: var(--blue);
 }
 
-.scrolling-active .nav a,
-.scrolling-active .nav a:hover {
+.six-mobile-width .nav a,
+.six-mobile-width .nav a:hover {
   color: #6c697b;
 }
 
-.scrolling-active .nav i,
-.scrolling-active .nav i:visited {
+.six-mobile-width .nav i,
+.six-mobile-width .nav i:visited {
   color: var(--blue);
 }
 
@@ -163,5 +163,38 @@ header {
   }
   .hamburger-menu.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .six-mobile-width {
+    background-color: #fff;
+  }
+
+  .six-mobile-width .nav a,
+  .six-mobile-width .nav a:visited {
+    color: var(--light-grey);
+  }
+
+  .six-mobile-width .nav .bar {
+    background-color: var(--blue);
+  }
+
+  .six-mobile-width .nav a,
+  .six-mobile-width .nav a:hover {
+    color: #6c697b;
+  }
+
+  .six-mobile-width .nav i,
+  .six-mobile-width .nav i:visited {
+    color: var(--blue);
+  }
+
+  .six-mobile-width .nav-link::after {
+    background-color: #313131;
+  }
+
+  .six-mobile-width {
+    background-color: #fff;
   }
 }

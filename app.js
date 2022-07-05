@@ -13,7 +13,7 @@ window.addEventListener('scroll', function () {
     header.classList.toggle('contact-active', navContactPosition)
     social.classList.toggle('contact-svg', svgContactPosition)
 
-    let mobileNav = window.scrollY > 600;
+    let mobileNav = window.scrollY > 580;
     header.classList.toggle('six-mobile-width', mobileNav);
 })
 
