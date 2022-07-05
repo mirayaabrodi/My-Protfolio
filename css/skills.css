@@ -201,3 +201,10 @@
     padding-top: 150px;
   }
 }
+
+/* HEIGHT */
+@media screen and (max-height: 866px) {
+  #skills {
+    margin-bottom: 100px;
+  }
+}

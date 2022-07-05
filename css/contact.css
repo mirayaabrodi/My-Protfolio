@@ -97,6 +97,7 @@ footer {
 
 footer a,
 footer a:visited {
+margin: auto;
   color: #a5c4f8;
   font-size: 1rem;
   transition: all 0.3s ease;
@@ -143,65 +144,11 @@ footer .social-footer a {
   color: #fff;
 }
 
+.contact-active .nav .hamburger-menu .bar {
+  background: var(--white);
+}
+
 /* MEDIA QUERY  */
-
-@media screen and (max-width: 1040px) {
-  .contact-active {
-    background-color: #fff;
-  }
-
-  .contact-active .nav a,
-  .contact-active .nav a:visited {
-    color: var(--light-grey);
-  }
-
-  .contact-active .nav a,
-  .contact-active .nav a:hover {
-    color: var(--dark-grey);
-  }
-
-  .contact-active .nav i,
-  .contact-active .nav i:visited {
-    color: var(--blue);
-  }
-
-  .contact-svg a svg {
-    color: var(--dark-grey);
-  }
-
-  .mobile-contact-active {
-    background-color: var(--blue);
-  }
-
-  .mobile-contact-active .nav a,
-  .mobile-contact-active .nav a:visited {
-    color: var(--white);
-  }
-
-  .mobile-contact-active .nav a,
-  .mobile-contact-active .nav a:hover {
-    color: var(--white);
-  }
-
-  .mobile-contact-active .nav i,
-  .mobile-contact-active .nav i:visited {
-    color: var(--white);
-  }
-
-  .mobile-contact-svg a svg {
-    color: #fff;
-  }
-}
-
-@media screen and (max-height: 930px) {
-  .mobile-contact-active .nav-list {
-    background-color: var(--blue);
-  }
-
-  .mobile-contact-active .nav .bar {
-    background-color: var(--white);
-  }
-}
 
 @media screen and (max-width: 680px) {
   #contact .contact-wrapper h3 {
@@ -282,6 +229,12 @@ footer .social-footer a {
   }
 }
 
+@media screen and (max-width: 930px) {
+  .contact-active .nav-list {
+    background-color: var(--blue);
+  }
+}
+
 @media screen and (max-width: 450px) {
   #contact .contact-wrapper h3 {
     font-size: calc(18 / 16 * 1rem);
@@ -312,3 +265,5 @@ footer .social-footer a {
     font-size: 1rem;
   }
 }
+
+/* NAVIGATION BAR CONTACT AND SOCIALS */

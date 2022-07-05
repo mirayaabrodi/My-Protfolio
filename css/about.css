@@ -179,3 +179,11 @@ img {
     width: 220px;
   }
 }
+
+/* HEIGHT CONTACT NAV */
+
+@media screen and (max-height: 799px) {
+  #about {
+    margin-bottom: 100px;
+  }
+}
